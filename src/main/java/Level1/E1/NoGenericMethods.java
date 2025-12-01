@@ -5,11 +5,12 @@ public class NoGenericMethods {
     private Object object2;
     private Object object3;
 
-    public NoGenericMethods (Object object1, Object object2, Object object3) {
+    public NoGenericMethods(Object object1, Object object2, Object object3) {
         this.object1 = object1;
         this.object2 = object2;
         this.object3 = object3;
     }
+
     // setters
     public void setObject1(Object object1) {
         this.object1 = object1;
